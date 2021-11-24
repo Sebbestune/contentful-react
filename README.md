@@ -1,3 +1,7 @@
+# Deploy on netlify with contentful
+
+https://www.contentful.com/developers/docs/javascript/tutorials/getting-started-with-react-and-contentful/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
