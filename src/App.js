@@ -5,6 +5,7 @@ const query = `
 {
   postCollection {
     items {
+      id,
       title,
       time
     }
@@ -43,10 +44,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Titles:
+        <h2>Titles</h2>
+        <p>Here is a list of the titles of my contentful posts!</p>
         <ul>
           {posts.map(post => {
-            return <li>{post.title}</li>
+            return <li key={post.id}>{post.title}</li>
           })}
         </ul>
       </header>
