@@ -5,6 +5,9 @@ const query = `
 {
   postCollection {
     items {
+      sys {
+        id
+      }
       title,
       time
     }
